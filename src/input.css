@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .bar{
+        @apply flex w-[100%] justify-around md:h-[100px] h-[50px]
+    }
+    .bar ul{
+        @apply md:flex md:gap-11 md:block hidden
+    }
+    .bar button{
+        @apply md:block hidden bg-gradient-to-r from-green-500 to-blue-400 rounded-full text-white text-xs w-[11vw] h-[25px] text-center
+    }
+    .ham{
+        @apply md:hidden
+    }
+    .next{
+        @apply flex md:flex-row flex-col-reverse items-center md:justify-around md:p-[30px] pb-[30px]
+    }
+    .cont{
+        @apply md:w-[50%] gap-7 flex flex-col md:items-start items-center
+    }
+    .cont h1{
+        @apply md:text-7xl text-5xl md:font-medium font-normal text-center md:text-left
+    }
+    .cont p{
+        @apply md:w-[28vw] w-[85vw]
+    }
+    .cont button{
+        @apply bg-gradient-to-r from-green-500 to-blue-400 rounded-full text-white text-sm w-[40vw] md:w-[13vw] h-[40px] text-center
+    }
+    .mob{
+        @apply md:w-[50%] md:bg-desk bg-mobil bg-no-repeat bg-cover bg-center flex items-center justify-center
+    }
+    .mob img{
+        @apply md:h-[600px]
+    }
+    .hro{
+        @apply flex flex-col gap-[50px] md:text-left text-center justify-around md:p-[30px] py-[60px]
+    }
+    .choos{
+        @apply flex flex-col gap-7
+    }
+    .choos h1{
+        @apply text-5xl
+    }
+    .choos p{
+        @apply md:w-[42vw] md:text-base text-[17px]
+    }
+    .list{
+        @apply flex flex-col md:flex-row gap-[50px] justify-around
+    }
+    .list h1{
+        @apply font-medium text-2xl
+    }
+    .list p{
+        @apply md:w-[18vw] md:text-base text-lg
+    }
+    .list div{
+        @apply flex flex-col gap-6 md:items-start items-center
+    }
+    .group{
+        @apply flex flex-col gap-[60px] md:p-[30px] pt-[30px] pb-[50px]
+    }
+    .gr h1{
+        @apply md:text-5xl text-4xl text-center md:text-left
+    }
+    .grp{
+        @apply flex md:flex-row flex-col gap-[50px]
+    }
+    .grp h6{
+        @apply text-sm
+    }
+    .grp h1{
+        @apply font-medium text-[25px]
+    }
+    .grp p{
+        @apply md:w-[18vw] md:text-base text-lg
+    }
+    .grp div{
+        @apply flex flex-col gap-6
+    }
+    .grp img{
+        @apply h-[230px] rounded-t-lg md:rounded-none
+    }
+    .fter{
+        @apply bg-gray-900 flex flex-col md:flex-row justify-between text-white text-center md:text-left size-full p-[30px] gap-5 md:gap-0
+    }
+    .first{
+        @apply flex flex-col md:flex-row md:gap-56 gap-3
+    }
+    .first ul{
+        @apply flex flex-col gap-4
+    }
+    .icon{
+        @apply flex flex-col items-center md:items-start gap-10
+    }
+    .media{
+        @apply flex gap-4
+    }
+    .lgo{
+        @apply bg-slate-200
+    }
+    .all{
+        @apply flex flex-col items-center md:items-start md:gap-10 gap-5
+    }
+    .all button{
+        @apply bg-gradient-to-r from-green-500 to-blue-400 rounded-full text-white text-sm w-[40vw] md:w-[13vw] h-[40px] text-center
+    }
+}
