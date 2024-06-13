@@ -593,6 +593,7 @@ video {
   height: 50px;
   width: 100%;
   justify-content: space-around;
+  padding-top: 20px;
 }
 
 @media (min-width: 768px) {

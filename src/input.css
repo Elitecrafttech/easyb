@@ -4,7 +4,7 @@
 
 @layer components{
     .bar{
-        @apply flex w-[100%] justify-around md:h-[100px] h-[50px]
+        @apply flex w-[100%] justify-around md:h-[100px] h-[50px] pt-[20px]
     }
     .bar ul{
         @apply md:flex md:gap-11 md:block hidden
