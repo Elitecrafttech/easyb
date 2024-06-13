@@ -88,7 +88,7 @@
         @apply bg-gray-900 flex flex-col md:flex-row justify-between text-white text-center md:text-left size-full p-[30px] gap-5 md:gap-0
     }
     .first{
-        @apply flex flex-col md:flex-row md:gap-40 gap-3
+        @apply flex flex-col md:flex-row md:gap-32 gap-3
     }
     .first ul{
         @apply flex flex-col gap-4

@@ -1059,7 +1059,7 @@ video {
 @media (min-width: 768px) {
   .\!first {
     flex-direction: row;
-    gap: 10rem;
+    gap: 8rem;
   }
 }
 
@@ -1072,7 +1072,7 @@ video {
 @media (min-width: 768px) {
   .first {
     flex-direction: row;
-    gap: 10rem;
+    gap: 8rem;
   }
 }
 
